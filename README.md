@@ -7,53 +7,51 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Web Kasir App - Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi kasir online modern berbasis web yang dibuat dengan **Laravel**. Dirancang untuk memudahkan pengelolaan toko online secara aman dan efisien.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img width="1368" height="784" alt="Gemini_Generated_Image_kjtb8dkjtb8dkjtb (1)" src="https://github.com/user-attachments/assets/1f520add-397d-48ff-ab4c-f40b6a9b4673" />
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## 📋 Deskripsi
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**Web Kasir App** adalah sistem kasir berbasis web yang menyediakan fitur lengkap mulai dari manajemen data, transaksi real-time, hingga laporan keuangan. Aplikasi ini cocok digunakan untuk UMKM, toko retail, maupun bisnis online yang membutuhkan sistem kasir yang cepat dan terintegrasi.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Dibuat oleh:**
+- **Nama**: Isnan Setiadi
+- **NIM**: 23040051
+- **Universitas**: Universitas Al Khairiyah
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ✨ Fitur Utama
 
-### Premium Partners
+- **🔐 Manajemen Dashboard Aman**  
+  Akses aman untuk admin dan kasir dengan fitur login & keamanan
+- **📦 Data Master & Produk Lengkap**  
+  Kelola pengguna, kategori, dan produk dengan mudah
+- **💰 Transaksi Kasir Real-time**  
+  Proses transaksi cepat dan responsif
+- **📊 Laporan Keuangan Detail**  
+  Analisis penjualan, laba, dan laporan transaksi lengkap
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🖥️ Preview Tampilan
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+| Halaman Pengguna | Halaman Kategori | Admin Dashboard | Form Transaksi | Login Page | Daftar Transaksi | Print Struk |
+|------------------|------------------|-----------------|----------------|------------|------------------|-------------|
+| <img src="https://github.com/user-attachments/assets/358213d2-7941-43c6-ab9b-8d07d770a83d" width="360"> | <img src="https://github.com/user-attachments/assets/378efb7f-f395-4fde-9339-14551b367892" width="360"> | <img src="https://github.com/user-attachments/assets/31a25e3d-3a81-4775-95ee-db95e0a74610" width="360"> | <img src="https://github.com/user-attachments/assets/8b1c6c49-e30a-40f2-a158-d901226988da" width="360"> | <img src="https://github.com/user-attachments/assets/241d1feb-cce8-4145-a7ef-e9c174227ecf" width="360"> | <img src="https://github.com/user-attachments/assets/1fdb236a-0305-459d-92ad-5a0588a92d57" width="360"> | <img src="https://github.com/user-attachments/assets/3356be00-f6f5-407d-a9e0-9dc168635150" width="360"> |
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🛠️ Teknologi yang Digunakan
 
-## Security Vulnerabilities
+- **Backend**: Laravel (PHP Framework)
+- **Frontend**: Blade Template + Tailwind CSS / Bootstrap
+- **Database**: MySQL
+- **Authentication**: Laravel Breeze / Jetstream / Fortify
+- **Lainnya**: Chart.js (untuk visualisasi data)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
