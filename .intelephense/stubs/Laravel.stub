@@ -1,0 +1,79 @@
+<?php
+/**
+ * Laravel Eloquent Model Stubs for Intelephense
+ * This file provides type hints for dynamic Laravel methods
+ */
+
+namespace Illuminate\Database\Eloquent {
+    class Builder {
+        public function count($columns = '*') {}
+        public function sum($column) {}
+        public function avg($column) {}
+        public function min($column) {}
+        public function max($column) {}
+        public function whereDate($column, $operator, $value = null) {}
+        public function whereMonth($column, $operator, $value = null) {}
+        public function whereYear($column, $operator, $value = null) {}
+        public function whereBetween($column, array $values) {}
+        public function whereNotIn($column, $values) {}
+        public function where($column, $operator = null, $value = null) {}
+        public function selectRaw($expression, array $bindings = []) {}
+        public function groupByRaw($sql, array $bindings = []) {}
+        public function orderBy($column, $direction = 'asc') {}
+        public function orderByDesc($column) {}
+        public function with($relations) {}
+        public function get($columns = ['*']) {}
+        public function limit($value) {}
+        public function take($value) {}
+        public function offset($value) {}
+        public function skip($value) {}
+        public function first($columns = ['*']) {}
+        public function pluck($value, $key = null) {}
+        public function toArray() {}
+    }
+
+    class Model {
+        public static function count($columns = '*') {}
+        public static function sum($column) {}
+        public static function avg($column) {}
+        public static function min($column) {}
+        public static function max($column) {}
+        public static function where($column, $operator = null, $value = null) {}
+        public static function whereDate($column, $operator, $value = null) {}
+        public static function whereMonth($column, $operator, $value = null) {}
+        public static function whereYear($column, $operator, $value = null) {}
+        public static function whereBetween($column, array $values) {}
+        public static function whereNotIn($column, $values) {}
+        public static function selectRaw($expression, array $bindings = []) {}
+        public static function groupByRaw($sql, array $bindings = []) {}
+        public static function orderBy($column, $direction = 'asc') {}
+        public static function orderByDesc($column) {}
+        public static function with($relations) {}
+        public static function withCount($relations) {}
+        public static function select($columns = ['*']) {}
+        public static function distinct() {}
+        public static function get($columns = ['*']) {}
+        public static function first($columns = ['*']) {}
+        public static function pluck($value, $key = null) {}
+        public static function limit($value) {}
+        public static function take($value) {}
+        public static function toArray() {}
+    }
+}
+
+namespace Illuminate\Support\Collection {
+    class Collection {
+        public function pluck($value, $key = null) {}
+        public function unique($key = null) {}
+        public function values() {}
+        public function filter(\Closure $callback = null) {}
+        public function take($items) {}
+        public function slice($offset, $length = null) {}
+        public function sum($key = null) {}
+        public function push(...$items) {}
+        public function map(\Closure $callback) {}
+        public function keyBy($key) {}
+        public function get($key, $default = null) {}
+        public function toArray() {}
+    }
+}

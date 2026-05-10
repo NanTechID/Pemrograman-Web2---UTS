@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'php_version' => '8.2',
+    'paths' => [
+        'app',
+        'routes',
+        'config',
+    ],
+    'excludedPaths' => [
+        'vendor',
+        'node_modules',
+        'bootstrap',
+        'storage',
+        'tests',
+    ],
+    'level' => 5,
+    'errorFormat' => '%file%:%line%:%message%',
+    'reportUnmatchedIgnoredErrors' => false,
+];

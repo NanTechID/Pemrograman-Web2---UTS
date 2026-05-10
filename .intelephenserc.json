@@ -1,0 +1,44 @@
+{
+  "intelephense": {
+    "diagnostics.misspelledWord": true,
+    "diagnostics.deprecation": true,
+    "diagnostics.wrongTypeHintCount": true,
+    "diagnostics.unusedVariable": true,
+    "diagnostics.undefinedVariable": true,
+    "diagnostics.undefinedConstant": true,
+    "diagnostics.undefinedClassConstant": true,
+    "diagnostics.undefinedFunction": true,
+    "diagnostics.undefinedMethod": true,
+    "diagnostics.undefinedProperty": true,
+    "diagnostics.undefinedType": true,
+    "diagnostics.duplicateUseDeclarations": true,
+    "diagnostics.duplicateConstDeclarations": true,
+    "diagnostics.duplicateFunctionDeclarations": true,
+    "diagnostics.duplicateClassDeclarations": true,
+    "diagnostics.unexpectedToken": true,
+    "diagnostics.notImplemented": false,
+    "diagnostics.argumentCount": false,
+    "diagnostics.typeError": true,
+    "diagnostics.unknownDocblockTag": false,
+    "diagnostics.reportMissingCallableReturnType": true,
+    "diagnostics.reportMissingReturnType": false,
+    "diagnostics.reportMissingParamType": false,
+    "diagnostics.reportIncompatibleMethodOverride": true,
+    "completion.insertUseDeclaration": true,
+    "completion.fullyQualifyGlobalConstantsAndFunctions": false,
+    "completion.maxItems": 100,
+    "workspace.maxFileSize": 5242880,
+    "workspace.excludeFiles": [
+      ".git",
+      "node_modules",
+      "vendor/**/*.php",
+      "storage/**/*",
+      "bootstrap/cache/**/*"
+    ],
+    "workspace.ignorePatterns": [
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/vendor/**"
+    ]
+  }
+}
